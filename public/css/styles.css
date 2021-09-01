@@ -1,3 +1,29 @@
+/*Bootstrap Overrides*/
+
+body {
+    /*not a fan of this override from a style standpoint, but followed the instructions*/
+    background-color: rgb(237, 237, 237);
+    color: rgb(48, 48, 48);
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgb(48, 48, 48);
+}
+
 .nav-pills .nav-link.active {
     background-color: white;
     color: darkred;
@@ -16,6 +42,9 @@
     color: grey;
     background-color: white;
 }
+
+
+/*Custom Classes and IDs*/
 
 .divider {
     width: 80px;
