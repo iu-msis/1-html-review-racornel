@@ -23,13 +23,13 @@
     </nav>
 
     <!--Content-->
-    <div class="container shadow p-3 mb-5">
-        <div class="row">
+    <div class="container">
+        <div class="row shadow p-3 mb-5">
             <div class="col">
                 <h1>Data</h1>
                 <div class="divider"></div>
                 <p>
-                    Here is some test data.
+                    Here is some data about books.
                 </p>
                 <table class="table table-striped">
                     <thead>
@@ -130,6 +130,44 @@
 
                     </tbody>
                 </table>
+            </div>
+        </div>
+        <div class="row shadow p-3 mb-5">
+            <div class="col">
+                <h1>Form</h1>
+                <div class="divider"></div>
+                <p>
+                    Add some more books to the above table.
+                </p>
+                <form class="row g-3">
+                    <div class="col-12">
+                        <label for="inputTitle" class="form-label">Book Title</label>
+                        <input type="text" class="form-control" id="inputTitle">
+                    </div>
+                    <div class="col-md-8">
+                        <label for="inputAuthor" class="form-label">Author</label>
+                        <input type="text" class="form-control" id="inputAuthor">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputYearPub" class="form-label">Year Published</label>
+                        <input type="text" class="form-control" id="inputYearPub">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputPublisher" class="form-label">Publisher</label>
+                        <input type="text" class="form-control" id="inputPublisher">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPageCount" class="form-label">Page Count</label>
+                        <input type="text" class="form-control" id="inputPageCount">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputMSRP" class="form-label">MSRP</label>
+                        <input type="text" class="form-control" id="inputMSRP">
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-danger">Add Book</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
