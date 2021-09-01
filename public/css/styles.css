@@ -1,0 +1,25 @@
+.nav-pills .nav-link.active {
+    background-color: white;
+    color: darkred;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.nav-link:hover {
+    color: grey;
+    background-color: white;
+}
+
+.divider {
+    width: 80px;
+    height: 7px;
+    background-color: darkred;
+    margin-bottom: 10px;
+}
